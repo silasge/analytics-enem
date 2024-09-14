@@ -1,0 +1,9 @@
+version: 2
+
+# external sources
+sources:
+  - name: fa_source
+    tables:
+      - name: fa_scores
+        meta: 
+          external_location: "read_parquet('../../data/factors/enem_factors_scores.parquet')"

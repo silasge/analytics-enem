@@ -1,0 +1,23 @@
+[project]
+name = "analytics-enem"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dbt-core>=1.8.6",
+    "dbt-duckdb>=1.8.3",
+    "duckdb",
+    "factor-analyzer>=0.5.1",
+    "fire>=0.6.0",
+    "loguru>=0.7.2",
+    "polars[pyarrow]>=1.6.0",
+    "pypdl>=1.4.4",
+]
+
+[project.optional-dependencies]
+extra = [
+    "ipykernel>=6.29.5",
+    "matplotlib>=3.9.2",
+    "seaborn>=0.13.2",
+]

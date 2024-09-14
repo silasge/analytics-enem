@@ -1,0 +1,9 @@
+enem:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: ../../data/db/enem.duckdb
+      threads: 1
+      schema: enem
+    

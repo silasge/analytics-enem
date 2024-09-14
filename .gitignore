@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+.task/
+logs/
+*.jar
+*.trace.db
+sample-database.db.mv.db
+*.duckdb
+*.csv
+*.xlsx
+*.zip
+*.parquet

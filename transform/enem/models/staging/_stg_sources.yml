@@ -1,0 +1,9 @@
+version: 2
+
+# external sources
+sources:
+  - name: enem
+    meta: 
+      external_location: "read_parquet('../../data/raw/parquet/MICRODADOS_ENEM_{name}.parquet')"
+    tables:
+      - name: "2023"
